@@ -23,7 +23,6 @@ public class SystemController {
 
     public int getSize(){return size;}
 
-
     public boolean eraseUser(User user){
         for (User id: users) {
             if (Objects.equals(id.getUsername(), user.getUsername())) {
